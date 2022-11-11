@@ -1,6 +1,6 @@
 //: migrations 디렉토리 앞 붙여지는 숫자대로 실행된다.
-const Migrations = artifacts.require("Migrations");
+const Mingty = artifacts.require("Mingty");
 
 module.exports = function (deployer) {
-    deployer.deploy(Migrations);
+    deployer.deploy(Mingty);
 }
